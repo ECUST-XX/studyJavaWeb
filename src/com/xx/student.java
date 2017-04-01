@@ -186,10 +186,10 @@ public class student {
 		  if((pwd.equals(pw))&&(stas==0)){
 			  	String ms = "UPDATE student set statues = '"+insid+"' WHERE sid = "+insid;
 				int rs = mysql.update(ms);
-				
+				index = insid;
 				System.out.println("+++++++++++½á¹û----------£º"+rs);
 		  }
-		  index = insid;
+		 
 		
 		
 		mysql.free();

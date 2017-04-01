@@ -11,7 +11,7 @@
 		student stu = new student();
 		int index = stu.login(sid,pw);
 		
-		if(index==0){
+		if(index==0&&(session.getAttribute("sid")==null)){
 			
 			out.print("登陆失败，5秒后跳转");
 			out.println("<meta http-equiv=\"refresh\" content='5; url=login.jsp'>");
