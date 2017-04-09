@@ -47,7 +47,7 @@ String colums4 = "{data:'id'},{data:'sid'},{data:'cid'},{data:'score'},{data:'se
   
   <body>
 	 
-    <div class="container" style="margin:10% 10%;">
+    <div class="container" >
 	<table id="table1" class="display">
     <thead>
         <tr>
